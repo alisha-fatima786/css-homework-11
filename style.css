@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+  :root {
+            --lime-green: #B9FF66;
+            --dark-bg: #191A23;
+        }
+        body {   font-family: "Space Grotesk", sans-serif;}
+        
+        .navbar-brand { font-weight: bold; font-size: 1.5rem; }
+        .btn-outline-dark { border-radius: 12px; padding: 10px 25px; }
+        .btn-dark { border-radius: 14px; padding: 15px 35px; background-color: var(--dark-bg); }
+        
+        /* Custom Utility Classes */
+        .bg-lime { background-color: var(--lime-green) !important; }
+        .rounded-card { border-radius: 40px; border-bottom: 6px solid #000; padding: 40px; }
+        .highlight { background-color: var(--lime-green); padding: 2px 5px; border-radius: 5px; font-weight: bold; }
+        .highlight-white { background-color: #fff; padding: 2px 5px; border-radius: 5px; font-weight: bold; }
+
+        .service-icon { width: 150px; height: auto; }
+        .brand-logos img { filter: grayscale(100%); opacity: 0.6; max-width: 120px; }
+
+       
+    /* Custom Styling for Process Section */
+    .process-item {
+        border: 1px solid #000;
+        border-bottom: 5px solid #000;
+        border-radius: 40px !important;
+        margin-bottom: 25px;
+        overflow: hidden;
+        transition: background-color 0.3s;
+    }
+    .accordion-button {
+        padding: 30px 40px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: #F3F3F3;
+    }
+    .accordion-button:not(.collapsed) {
+        background-color: var(--lime-green);
+        color: black;
+        box-shadow: none;
+    }
+    .accordion-button:focus {
+        box-shadow: none;
+    }
+    .process-number {
+        font-size: 2.5rem;
+        margin-right: 25px;
+    }
+
+    /* Contact Section */
+    .contact-container {
+        background-color: #F3F3F3;
+        border-radius: 40px;
+        padding: 60px;
+        position: relative;
+    }
+    .form-control {
+        border-radius: 12px;
+        padding: 15px;
+        border: 1px solid #000;
+    }
+
+
+     /* Footer Custom Styling */
+    .footer-bg {
+        background-color: #191A23;
+        color: white;
+        border-radius: 40px 40px 0 0; /* Top rounded corners */
+        padding: 60px 60px 30px 60px;
+    }
+    .footer-link {
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+    .footer-link:hover {
+        color: #B9FF66;
+    }
+    .newsletter-box {
+        background-color: #292A32;
+        padding: 30px;
+        border-radius: 14px;
+        display: flex;
+        gap: 15px;
+    }
+    .social-icon {
+        background-color: white;
+        color: #191A23;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .footer-bottom-border {
+        border-top: 1px solid #444;
+        padding-top: 30px;
+        margin-top: 50px;
+    }
